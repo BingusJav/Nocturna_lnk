@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nocturna Ink - Estudio de tatuajes premium. Especialistas en arte oscuro, blackwork y fine line con un enfoque exclusivo y artístico.">
+  <title>Nocturna Ink | Estudio de Tatuajes Premium</title>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+</head>
+<body>
+
+  <!-- 1. Header Fijo -->
+  <header class="header">
+    <div class="container nav">
+      <div class="logo">
+        <a href="#"><img src="assets/Logo Nocturna_Ink.jpeg" alt="Nocturna Ink Logo" style="height: 40px; display: inline-block; vertical-align: middle;"></a>
+      </div>
+      
+      <ul class="nav-links">
+        <li><a href="#hero">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li class="dropdown">
+          <a href="#servicios">Tatuajes ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="#servicios">Estilos</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#artistas">Nuestros Artistas</a></li>
+          </ul>
+        </li>
+        <li><a href="#blog">Revista</a></li>
+      </ul>
+      
+      <div class="nav-actions">
+        <!-- SVG Search Icon -->
+        <a href="#" aria-label="Buscar"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></a>
+        <a href="#contacto" class="btn btn-primary">Reservar Cita</a>
+        
+        <button class="hamburger" aria-label="Menú">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 2. Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h1>El Arte de lo Eterno</h1>
+      <p>Bienvenido a Nocturna Ink. Donde la precisión magistral se encuentra con la estética oscura y elegante. Tu piel es nuestro lienzo definitivo.</p>
+      <div class="hero-btns">
+        <a href="#contacto" class="btn btn-primary">Agendar Tatuaje</a>
+        <a href="#galeria" class="btn btn-outline">Ver Trabajos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. About Us Section -->
+  <section id="nosotros" class="section-padding">
+    <div class="container about">
+      <div class="about-img-wrap reveal">
+        <img src="assets/Proceso.jpeg" alt="Proceso de tatuaje" class="about-img" style="margin-bottom: 1.5rem;">
+        <img src="assets/Tatuador 2.jpeg" alt="Tatuador en acción" class="about-img">
+      </div>
+      <div class="about-content reveal">
+        <span class="section-subtitle">Nuestra Filosofía</span>
+        <h2>Tinta con Propósito, Arte sin Límites</h2>
+        <p>En Nocturna Ink no hacemos simples tatuajes; esculpimos legados en la piel. Con más de una década de experiencia colectiva, nuestro santuario artístico en el corazón de la ciudad ofrece una experiencia premium e inigualable.</p>
+        <p>Trabajamos en un entorno impecable, valorando la confianza que depositas en nosotros para plasmar tu visión con estética sofisticada y técnica perfecta.</p>
+        <br>
+        <a href="#artistas" class="btn btn-outline">Conoce a Nuestro Equipo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Services / Styles Section -->
+  <section id="servicios" class="section-padding" style="background: var(--color-bg-secondary)">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-subtitle">Maestría en Tinta</span>
+        <h2 class="section-title">Especialidades</h2>
+      </div>
+      
+      <div class="services-grid reveal">
+        <!-- Servicio 1 -->
+        <div class="card service-card">
+          <div class="service-icon">♦</div>
+          <h3>Traditional</h3>
+          <p>Líneas firmes, colores sólidos y sombras dramáticas. El clásico que desafía el paso del tiempo, ejecutado a la perfección.</p>
+        </div>
+        <!-- Servicio 2 -->
+        <div class="card service-card">
+          <div class="service-icon">■</div>
+          <h3>Blackwork</h3>
+          <p>El poder de la tinta negra pura. Contrastes extremos y composiciones impactantes diseñadas para destacar.</p>
+        </div>
+        <!-- Servicio 3 -->
+        <div class="card service-card">
+          <div class="service-icon">〰</div>
+          <h3>Fine Line</h3>
+          <p>Elegancia y sutileza en su máxima expresión. Trazos precisos y delicados para diseños minimalistas y sofisticados.</p>
+        </div>
+        <!-- Servicio 4 -->
+        <div class="card service-card">
+          <div class="service-icon">👁</div>
+          <h3>Realismo</h3>
+          <p>Retratos y piezas de alta fidelidad que cobran vida. Especialistas en realismo en sombras y contrastes ricos.</p>
+        </div>
+        <!-- Servicio 5 -->
+        <div class="card service-card">
+          <div class="service-icon">⬢</div>
+          <h3>Geométrico</h3>
+          <p>Simetría impecable y patrones complejos. Mandala, dotwork y geometría sagrada con proporciones matemáticas.</p>
+        </div>
+        <!-- Servicio 6 -->
+        <div class="card service-card">
+          <div class="service-icon">𝕬</div>
+          <h3>Lettering</h3>
+          <p>Caligrafía y estilo chicano gótico personalizado. Letras diseñadas a mano que fluyen orgánicamente con tu cuerpo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Work Gallery -->
+  <section id="galeria" class="section-padding">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-subtitle">Nuestro Legado</span>
+        <h2 class="section-title">Galería de Obras</h2>
+      </div>
+      
+      <div class="gallery-grid reveal">
+        <div class="gallery-item">
+          <img src="assets/Tatto 1.jpeg" alt="Tatuaje 1">
+          <div class="gallery-overlay">
+            <h4>Tatuaje 1</h4>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/Tatto 2.jpeg" alt="Tatuaje 2">
+          <div class="gallery-overlay">
+            <h4>Tatuaje 2</h4>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/Tatto 3.jpeg" alt="Tatuaje 3">
+          <div class="gallery-overlay">
+            <h4>Tatuaje 3</h4>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/Tatto 4.jpeg" alt="Tatuaje 4">
+          <div class="gallery-overlay">
+            <h4>Tatuaje 4</h4>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/Tatto 5.jpeg" alt="Tatuaje 5">
+          <div class="gallery-overlay">
+            <h4>Tatuaje 5</h4>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/Tatto 6.jpeg" alt="Tatuaje 6">
+          <div class="gallery-overlay">
+            <h4>Tatuaje 6</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Promotions / Benefits -->
+  <section class="promo">
+    <div class="container reveal">
+      <h2>Experiencia Exclusiva</h2>
+      <p>15% de cortesía en tu primera sesión de Blackwork o Piezas Complejas durante este mes.</p>
+      <a href="#contacto" class="btn btn-primary">Reclamar Beneficio</a>
+    </div>
+  </section>
+
+  <!-- 6. Artists Section -->
+  <section id="artistas" class="section-padding">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-subtitle">El Creador</span>
+        <h2 class="section-title">Nuestro Artista</h2>
+      </div>
+      
+      <div class="artists-grid reveal" style="grid-template-columns: 1fr; max-width: 400px; margin: 0 auto;">
+        <div class="card artist-card">
+          <img src="assets/Tatuador 1.jpeg" alt="Nestor Camacho - Tatuador" class="card-img" style="object-position: top;">
+          <div class="card-content">
+            <h3>Nestor Camacho</h3>
+            <p class="text-gold">Especialidad: Surrealismo, dotwork y tradicional</p>
+            <p style="margin-top: 1rem; color: var(--color-text-light);">Tatuador carismático y formal.</p>
+            <div class="artist-socials">
+              <a href="https://instagram.com/heyy_nezz" target="_blank">IG: @heyy_nezz</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Blog Section -->
+  <section id="blog" class="section-padding" style="background: var(--color-bg-secondary)">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-subtitle">Manual del Tinta</span>
+        <h2 class="section-title">Crónicas de Piel</h2>
+      </div>
+      
+      <div class="blog-grid reveal">
+        <div class="card blog-card">
+          <img src="assets/Stencil 1.jpeg" alt="Stencil 1" class="card-img">
+          <div class="card-content">
+            <h3>Diseño de Stencil 1</h3>
+          </div>
+        </div>
+        
+        <div class="card blog-card">
+          <img src="assets/Stencil 2.jpeg" alt="Stencil 2" class="card-img">
+          <div class="card-content">
+            <h3>Diseño de Stencil 2</h3>
+          </div>
+        </div>
+
+        <div class="card blog-card">
+          <video src="assets/Video ex 1.mp4" class="card-img" style="object-fit:cover;" autoplay loop muted playsinline controls></video>
+          <div class="card-content">
+            <h3>El Proceso en Acción 1</h3>
+          </div>
+        </div>
+
+        <div class="card blog-card">
+          <video src="assets/Video ex 2.mp4" class="card-img" style="object-fit:cover;" autoplay loop muted playsinline controls></video>
+          <div class="card-content">
+            <h3>El Proceso en Acción 2</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Newsletter -->
+  <section class="newsletter">
+    <div class="container newsletter-inner reveal">
+      <h2>Pasa al Siguiente Nivel</h2>
+      <p style="color: var(--color-text-muted); margin-top: 1rem;">Suscríbete para recibir acceso prioritario a agendas de artistas invitados, artículos exclusivos de curación y promociones de estudio.</p>
+      
+      <form class="newsletter-form">
+        <input type="email" class="form-control" placeholder="Tu correo electrónico" required>
+        <button type="submit" class="btn btn-primary">Suscribirse</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- 10. Footer -->
+  <footer id="contacto" class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <span class="footer-logo">NOCTURNA INK</span>
+          <p class="footer-desc">El refugio artístico para quienes buscan tatuajes excepcionales, arte oscuro y minimalismo elegante en un entorno premium de total seguridad clínica.</p>
+          <div class="social-links">
+            <a href="https://www.instagram.com/nocturna_lnk?igsh=MTc2Zmk5OW5vd3RzZw==" aria-label="Instagram" target="_blank">In</a>
+            <a href="https://www.facebook.com/share/1FnCq1DAuG/" aria-label="Facebook" target="_blank">Fb</a>
+            <a href="https://wa.me/528444048378" aria-label="WhatsApp" target="_blank">Wa</a>
+          </div>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Estudio</h4>
+          <a href="#nosotros">Nuestra Manada</a>
+          <a href="#artistas">Tatuador</a>
+          <a href="#galeria">Portafolio</a>
+          <a href="#blog">Procesos</a>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Ubicación</h4>
+          <p style="color: var(--color-text-muted)">Saltillo, Coahuila</p>
+          <br>
+          <p style="color: var(--color-text-muted)">Lun - Sáb: 10AM - 9PM<br>Dom: Con Cita Previa</p>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Contacto Rápido</h4>
+          <p style="color: var(--color-text-muted)">Facebook: Nestor Meza<br>Teléfono: 844 404 8378<br>WhatsApp: 844 404 8378</p>
+          <br>
+          <a href="https://wa.me/528444048378" class="btn btn-primary" style="padding: 0.5rem 1rem" target="_blank">Agendar Vía WhatsApp</a>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 Obsidian Ink Tattoo Studio. Todos los derechos reservados. | Políticas de Privacidad | Términos y Condiciones</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
